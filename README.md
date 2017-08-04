@@ -1,7 +1,7 @@
 # OrderList
-优化订单列表,大量数据也不会造成卡顿
-使用AutoSwipeRefreshLayout+RecyclerView+通用Adapter(RecyclerView)
-这里Adapter是用张鸿洋封装的Adapter 使用方便
+</br>优化订单列表,大量数据也不会造成卡顿
+</br>使用AutoSwipeRefreshLayout+RecyclerView+通用Adapter(RecyclerView)
+</br>这里Adapter是用张鸿洋封装的Adapter 使用方便
 List<Object>有三种数据类型：
 1、OrderGoodsInfo 表示每个小订单的头部信息（订单号、订单状态、店铺名称）
 2、OrderGoodsItem 表示小订单中的商品
