@@ -11,6 +11,7 @@ List<Object>有三种数据类型：
 然后通过Adapter根据不同部分来加载不同布局级数据
 具体实现:
 返回ViewType
+```java
 @Override
     public int getItemViewType(int position) {
         if(data.get(position) instanceof OrderGoodsInfo) {
@@ -90,3 +91,4 @@ List<Object>有三种数据类型：
             });
         }
     }
+```java
