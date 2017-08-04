@@ -2,15 +2,15 @@
 </br>优化订单列表,大量数据也不会造成卡顿
 </br>使用AutoSwipeRefreshLayout+RecyclerView+通用Adapter(RecyclerView)
 </br>这里Adapter是用张鸿洋封装的Adapter 使用方便
-List<Object>有三种数据类型：
-1、OrderGoodsInfo 表示每个小订单的头部信息（订单号、订单状态、店铺名称）
-2、OrderGoodsItem 表示小订单中的商品
-3、OrderPayInfo 表示大订单的支付信息（金额、订单状态）
+</br>List<Object>有三种数据类型：
+</br>1、OrderGoodsInfo 表示每个小订单的头部信息（订单号、订单状态、店铺名称）
+</br>2、OrderGoodsItem 表示小订单中的商品
+</br>3、OrderPayInfo 表示大订单的支付信息（金额、订单状态）
 
-将列表一个item分成3个部分(布局一般是固定的)
-然后通过Adapter根据不同部分来加载不同布局级数据
-具体实现:
-返回ViewType
+</br>将列表一个item分成3个部分(布局一般是固定的)
+</br>然后通过Adapter根据不同部分来加载不同布局级数据
+</br>具体实现:
+</br>返回ViewType
 ```java
 @Override
     public int getItemViewType(int position) {
