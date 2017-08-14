@@ -6,6 +6,9 @@
 </br>1、OrderGoodsInfo 表示每个小订单的头部信息（订单号、订单状态、店铺名称）
 </br>2、OrderGoodsItem 表示小订单中的商品
 </br>3、OrderPayInfo 表示大订单的支付信息（金额、订单状态）
+##效果图
+</br> 
+![图1](https://raw.githubusercontent.com/wenkaichuang0729/OrderList/master/images/list.png)
 
 </br>将列表一个item分成3个部分(布局一般是固定的)
 </br>然后通过Adapter根据不同部分来加载不同布局级数据
