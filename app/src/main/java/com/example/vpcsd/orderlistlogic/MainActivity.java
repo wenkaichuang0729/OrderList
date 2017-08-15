@@ -105,7 +105,7 @@ public class MainActivity extends AppCompatActivity {
                 mLoadMoreWrapper.setLoadOver(true);
             }*/
             //判断什么时候不需要显示加载更多  这里只是测试用的   以实际为主
-            if (mAllOrderList.size() >= 20) {
+            if (mAllOrderList.size() >= 100) {
                 mLoadMoreWrapper.setLoadOver(false);
             } else {
                 mLoadMoreWrapper.setLoadOver(true);
