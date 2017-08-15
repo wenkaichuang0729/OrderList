@@ -11,7 +11,7 @@
         android:layout_height="wrap_content"
         android:gravity="center_vertical"
         android:background="@color/main_white_text"
-        android:layout_marginBottom="@dimen/margin_10dp"
+        android:layout_marginBottom="@dimen/margin_8dp"
         >
 
         <TextView
