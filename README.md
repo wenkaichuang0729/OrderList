@@ -1,5 +1,5 @@
 # OrderList
-</br>优化订单列表,大量数据也不会造成卡顿
+</br>优化列表,大量数据也不会造成卡顿,代码简洁可读性高
 </br>使用AutoSwipeRefreshLayout+RecyclerView+通用Adapter(RecyclerView)
 </br>这里Adapter是用张鸿洋封装的Adapter 使用方便(这里没有使用到最简化)
 </br>##效果图
