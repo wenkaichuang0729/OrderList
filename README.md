@@ -8,7 +8,7 @@
 </br>3、OrderPayInfo 表示大订单的支付信息（金额、订单状态）
 </br>##效果图
 </br> 
-![图1](https://raw.githubusercontent.com/wenkaichuang0729/OrderList/master/images/list.png)
+![图1](https://raw.githubusercontent.com/wenkaichuang0729/OrderList/master/images/11.gif)
 
 </br>将列表一个item分成3个部分(布局一般是固定的)
 </br>然后通过Adapter根据不同部分来加载不同布局级数据
